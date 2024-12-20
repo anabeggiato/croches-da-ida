@@ -1,4 +1,9 @@
 {
+  "name": "croches-da-ida",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "react-scripts start"
+  },
   "dependencies": {
     "react": "^19.0.0"
   }
