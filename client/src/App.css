@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 55vw;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo-section>img {
+  width: 55%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dados-section {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 45vw;
+  height: 100vh;
+
+  background-color: #860194;
+}
+
+.card-login {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  background-color: #fff;
+  border-radius: 20px;
+  width: 50%;
+
+  padding: 4.5vh 1vw;
 }
 
-.App-link {
-  color: #61dafb;
+.card-login>h2 {
+  color: #860194;
+  text-align: center;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 50%;
+}
+
+.input-section>label {
+  width: 21vw;
+
+  padding-top: .8rem;
+
+  color: #860194;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input-section>input {
+  width: 21vw;
+  height: 6vh;
+
+  border-radius: 20px;
+  border: 1px solid #969696;
+  background: rgba(217, 217, 217, 0.00);
+
+  padding-left: .5rem;
+}
+
+::-webkit-input-placeholder {
+  color: #868686;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.button {
+  width: 50%;
+  height: 6vh;
+  margin-top: 1rem;
+
+  border-radius: 20px;
+  background: #860194;
+
+  color: #FFF;
+  font-size: 1rem;
+
+  border-style: none;
+}
+
+.button:hover {
+  background: #C514DB;
 }
