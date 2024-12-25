@@ -5,6 +5,7 @@
     "start": "react-scripts start"
   },
   "dependencies": {
+    "express": "^4.21.2",
     "react": "^19.0.0"
   }
 }
